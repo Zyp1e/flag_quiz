@@ -1,0 +1,53 @@
+<resources>
+    <!-- 应用的基本主题 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bk</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <!-- 文本样式，大号字体 -->
+    <style name="TextLarge">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <!-- 通用按钮样式 -->
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/button_ripple</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <!-- 菜单文本的外观 -->
+    <style name="MenuTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/menuTextColor</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <!-- 另一种按钮样式 -->
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/my_custom_font</item>
+    </style>
+
+    <!-- Spinner 样式 -->
+    <style name="CustomSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- Spinner 下拉选项的文本样式 -->
+    <style name="CustomSpinnerText">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>
